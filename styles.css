@@ -1,0 +1,102 @@
+
+* {
+	box-sizing: border-box;
+}
+:root{
+	
+	background-blend-mode:color-burn;
+	background-color: aliceblue;
+
+}
+body {
+	opacity: 1;
+	font-family:  'Glass Antiqua', cursive;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+	height: 100vh;
+	overflow: hidden;
+	margin: 0;
+	background-color: rgb(21, 25, 46);
+	color: rgb(255,255,255);
+	transition: all 1s ease-in;
+	
+}
+
+h1{
+	font-size: 3rem;
+	text-shadow: 5px 5px 7px rgba(0, 0, 0, 0.2);
+	margin-top: 110px;
+}
+
+.time{
+	font-size: 5rem;
+	font-weight: bold;
+	margin-bottom: 110px;
+}
+button{
+
+	border: none;
+	border-radius: 6px;
+	padding:15px 40px;
+	font-size: 1.4rem;
+	color:white;
+	margin: 0px 15px;
+	text-transform: capitalize;
+	cursor: pointer;
+	transition: all 0.12s ease;
+	box-shadow:  5px 5px 7px rgba(0, 0, 0, 0.2);
+
+}
+button:hover{
+	opacity: 0.8;
+	color:black;
+	
+
+
+}
+button:active{
+	transform: scale(0.98);
+	opacity: 1;
+
+}
+
+#start{
+background-color: green;
+}
+#stop{
+background-color: orangered;
+}
+#reset{
+background-color: lightslategray;
+}
+#range{
+	margin-top: 50px;
+	width: 500px;
+	box-shadow: 5px 5px 10px rgba(0,0,0,0.3);
+	padding: 10px;
+	border-radius: 20px;
+	background-color: coral;
+}
+
+h3{
+	margin-top: 50px
+}
+
+@media only screen and (max-width: 768px) {	
+	#range{
+		width: 300px;
+	}
+	button{
+		border-radius: 6px;
+		padding:40px 15px;
+		font-size: 1.4rem;
+		color:white;
+		margin: 0px 5px;
+	
+	}
+	h2,h3{
+		font-size: 2rem;
+	}
+}

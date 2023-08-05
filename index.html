@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1" />
+		
+		<link rel="stylesheet" href="styles.css">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Glass+Antiqua&display=swap" rel="stylesheet">
+		<title>Kitchen Timer</title>
+	</head>
+	<body>
+		<div class="container">
+			<h1>Kitchen Timer</h1>
+			<div class="time"><span id='time'></span></div>
+			<div class="buttons">
+				<button id='start'>start</button>
+				<button id='stop'>stop</button>
+				<button id='reset'>reset</button>
+			</div>
+			<h3>Time Selected</h3><h2 id='value'></h2>
+			<input type="range" name="range" id="range" min='0' max='3599' >
+
+		</div>
+
+		<script
+			src='script.js'></script>
+	</body>
+</html>
